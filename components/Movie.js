@@ -64,7 +64,7 @@ function Movie(props) {
         <div>
           <span className={styles.name}>{props.title}</span>
           <p className={styles.description}>
-            {props.overview.slice(1, 250) + "..."}
+            {props.overview.slice(1, 200) + "..."}
           </p>
         </div>
         <div className={styles.iconContainer}>
